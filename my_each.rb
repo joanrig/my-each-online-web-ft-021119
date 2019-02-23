@@ -3,6 +3,7 @@ def my_each(array)
   array.each_with_index do |element, index|
   yield
   # code here
+  end
 end
 
 yielding do
